@@ -1,0 +1,33 @@
+# dependencies
+node_modules/
+
+# env / secrets — NEVER commit keys
+.env
+.env.*
+*.key
+*.pem
+
+# expo / react native
+.expo/
+dist/
+web-build/
+*.jks
+*.keystore
+
+# downloaded model weights — never commit binaries
+models/
+*.gguf
+*.litertlm
+*.bin
+*.safetensors
+
+# native build outputs
+ios/build/
+ios/Pods/
+android/build/
+android/app/build/
+android/.gradle/
+
+# misc
+.DS_Store
+*.log

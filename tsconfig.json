@@ -1,0 +1,1 @@
+{"compilerOptions":{"baseUrl":".","noUncheckedIndexedAccess":true,"paths":{"@/*":["src/*"]},"strict":true},"exclude":["node_modules"],"extends":"expo/tsconfig.base","include":["src/**/*"]}
